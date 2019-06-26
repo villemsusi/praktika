@@ -9,13 +9,13 @@
   <body>
     <div id="wrapper">
         <div id="menu" class="menu menu-block" style="display:none">
-            <button onclick="menu_close()">&times;</button><br>
-            <a href="#">Home</a><br>
-            <a href="#">Tasks</a><br>
-            <a href="#">Gallery</a><br>
+            <button onclick="slide();menu_close()">&times;</button><br>
+            <a href="index.php" onclick="menu_close()">Home</a><br>
+            <a href="#" onclick="slide();menu_close()">Tasks</a><br>
+            <a href="gallery.php" onclick="menu_close()">Gallery</a><br>
         </div>
         <div id="content">
-            <button onclick="menu_open()">☰</button>
+            <button onclick="slide();menu_open();" id="slide">☰</button>
         </div>
     </div>
   </body>

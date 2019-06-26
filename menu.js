@@ -5,3 +5,7 @@ function menu_open() {
 function menu_close() {
     document.getElementById("menu").style.display = "none";
 }
+
+function slide() {
+    document.getElementById("menu").classList.toggle("show");
+}
