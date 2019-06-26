@@ -19,7 +19,7 @@
     position:fixed!important;
     z-index:1;
     overflow:auto;
-    background-color: lightblue;
+    background-color: lightgray;
 }
 
 .menu-block {
@@ -33,8 +33,8 @@
 }
 
 a:link, a:visited {
-    background-color: #f44336;
-    color: white;
+    background-color: cyan;
+    color: black;
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
@@ -46,7 +46,7 @@ a:hover, a:active {
 }
 
 #menu {
-    height: 50%;
+    height: 100%;
     width: 1px;
     opacity: 0;
     transition: all .75s ease;
@@ -54,6 +54,6 @@ a:hover, a:active {
   
  #menu.show {
     opacity: 1;
-    height: 50%;
-    width: 35%;
+    height: 100%;
+    width: 15%;
 }
