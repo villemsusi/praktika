@@ -8,6 +8,6 @@
   </head>
   <body>
     <?php include "index.php"; ?>
-    Gallery
+    Requests
   </body>
 </html>

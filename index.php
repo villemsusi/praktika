@@ -12,7 +12,7 @@
             <button onclick="slide();menu_close()">&times;</button><br>
             <a href="index.php" onclick="menu_close()">Home</a><br>
             <a href="#" onclick="slide();menu_close()">Tasks</a><br>
-            <a href="gallery.php" onclick="menu_close()">Gallery</a><br>
+            <a href="requests.php" onclick="menu_close()">Requests</a><br>
         </div>
         <div id="content">
             <button onclick="slide();menu_open();" id="slide">☰</button>
